@@ -7,13 +7,13 @@ Console.Write("Digite a quantidade de broas vendidas: ");
 int quantidadeBroa = Convert.ToInt32(Console.ReadLine());
 
 // Cálculo do valor total das vendas de pães
-double valorPao = quantidadePao * 0.60;
+double totalPao = quantidadePao * 0.60;
 
 // Cálculo do valor total das vendas de broas
-double valorBroa = quantidadeBroa * 6.50;
+double totalBroa = quantidadeBroa * 6.50;
 
 // Cálculo do valor total das vendas
-double valorTotalVendas = valorPao + valorBroa;
+double valorTotalVendas = totalPao + totalBroa;
 
 // Cálculo do valor a ser guardado na poupança (10% do total)
 double valorPoupanca = valorTotalVendas * 0.10;
