@@ -1,5 +1,5 @@
 ﻿// Leitura do peso do prato montado 
-Console.Write("Digite o peso do prato montado (sem o peso do prato): ");
+Console.Write("Digite o peso (em quilos) do prato montado: ");
 double pesoPrato = Convert.ToDouble(Console.ReadLine());
 
 // Cálculo do valor total a pagar
