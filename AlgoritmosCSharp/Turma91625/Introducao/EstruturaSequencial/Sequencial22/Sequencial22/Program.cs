@@ -18,12 +18,9 @@ Console.Write("Digite a quantidade de moedas de 1 real: ");
 int quantidadeMoedas1Real = int.Parse(Console.ReadLine());
 
 // Cálculo do valor total economizado
-double valorTotal = (quantidadeMoedas1Centavo * 0.01) +
-                   (quantidadeMoedas5Centavos * 0.05) +
-                   (quantidadeMoedas10Centavos * 0.1) +
-                   (quantidadeMoedas25Centavos * 0.25) +
-                   (quantidadeMoedas50Centavos * 0.5) +
-                   (quantidadeMoedas1Real * 1);
+double valorTotal = (quantidadeMoedas1Centavo * 0.01) + (quantidadeMoedas5Centavos * 0.05) +
+    (quantidadeMoedas10Centavos * 0.1) + (quantidadeMoedas25Centavos * 0.25) +
+    (quantidadeMoedas50Centavos * 0.5) + (quantidadeMoedas1Real * 1);
 
 // Exibição do valor total economizado
 Console.WriteLine($"Valor total economizado: {valorTotal:F2}.");
